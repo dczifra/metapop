@@ -15,4 +15,4 @@ And each edge should contain :
 For each node, the sum of the outgoing edges cannot exceed the population.
 The id-order of the nodes have to be 0,1,...,n and should match with the index attribute (That may couse some inconvenient... and please use python >=3.6).
 
-The C_Country.run_async will simulate the infection seeded from the given infected cities, and with the given infected agents. It return the for each measure the [(S_i,E_i,I_i,R_i) i = 1...max_iter] array.
+The C_Country.run_async will simulate the infection seeded from the given infected cities, and with the given infected agents. It returns for each measure the [(S_i,E_i,I_i,R_i) i = 1...max_iter] array.
