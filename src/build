@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#g++ -g -std=c++11 src/main.cpp src/country.cpp -o src/main
+g++ -O3 -std=c++11 src/main.cpp src/country.cpp -o src/main
+echo "Build done"
